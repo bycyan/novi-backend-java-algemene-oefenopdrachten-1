@@ -24,4 +24,23 @@ package nl.novi.opdrachten.methodes;
  */
 
 public class DeelbaarDoorX {
+
+    public static void main(String[] args) {
+
+        float number = 3.0f;
+        float divisible = 13.0f;
+        int plus = 1;
+
+        if (number / divisible !=0) {
+            System.out.println("Het getal: " + divisible + " is deelbaar door " + number);
+            System.out.println("Want "+number+"/ "+divisible+"maakt: "+number / divisible);
+        } else {
+            System.out.println("Het getal: "+number+" is niet deelbaar door "+divisible +" Verlaag of verhoog het getal naar met " + plus);
+            System.out.println("Want "+number+"/ "+divisible+"maakt: "+number / divisible);
+        }
+
+        float newNumber = (number + plus);
+        System.out.println("Het getal" + divisible);
+
+    }
 }
