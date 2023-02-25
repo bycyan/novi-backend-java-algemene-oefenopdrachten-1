@@ -1,5 +1,4 @@
 package nl.novi.opdrachten.beslissingsstructuren;
-
 import java.util.Scanner;
 
 public class Geslacht {
